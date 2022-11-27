@@ -1,0 +1,4 @@
+.cover__image {
+  max-height: 740px;
+  object-fit: cover;
+}

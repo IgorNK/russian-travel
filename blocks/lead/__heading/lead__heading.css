@@ -1,0 +1,12 @@
+.lead__heading {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, Helvetica, Arial, sans-serif;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  color: #fff;
+  font-weight: 900;
+  font-style: normal;
+  max-width: 720px;
+}

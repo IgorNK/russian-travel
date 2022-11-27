@@ -1,0 +1,9 @@
+.cover__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 50%;
+}
