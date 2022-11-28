@@ -1,4 +1,6 @@
 .cover__image {
-  max-height: 740px;
+  max-width: 1184px;
+  aspect-ratio: 1.6;
+  height: auto;
   object-fit: cover;
 }

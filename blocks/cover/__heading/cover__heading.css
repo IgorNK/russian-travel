@@ -9,4 +9,6 @@
   text-align: center;
   color: #fff;
   max-width: 560px;
+  z-index: 1;
+  pointer-events: none;
 }

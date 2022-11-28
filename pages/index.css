@@ -62,6 +62,7 @@
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__image/cover__image.css);
 @import url(../blocks/cover/__content/cover__content.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__heading/cover__heading.css);
 @import url(../blocks/cover/__subheading/cover__subheading.css);
 /* ======================= */

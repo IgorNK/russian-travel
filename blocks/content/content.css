@@ -1,8 +1,11 @@
 .content {
   margin: 0;
   padding: 0;
+  padding-top: 28px;
+  padding-bottom: 68px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  row-gap: 92px;
   align-items: center;
 }

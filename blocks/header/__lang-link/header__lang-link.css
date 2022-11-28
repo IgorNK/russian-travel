@@ -2,6 +2,10 @@
   text-decoration: none;
 }
 
+.header__lang-link:link {
+  color: #fff;
+}
+
 .header__lang-link:visited {
   color: #fff;
 }

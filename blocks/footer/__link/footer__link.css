@@ -1,0 +1,23 @@
+.footer__link {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 112%;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  transition: opacity 0.2s linear;
+}
+
+.footer__link:link {
+  color: #fff;
+}
+
+.footer__link:visited {
+  color: #fff;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
+}
