@@ -10,3 +10,12 @@
   color: #fff;
   max-width: 640px;
 }
+
+@media screen and (max-width: 665px) {
+  .lead__subheading {
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 125%;
+    max-width: 288px;
+  }
+}

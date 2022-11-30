@@ -5,3 +5,10 @@
   align-self: end;
   justify-self: start;
 }
+
+@media screen and (max-width: 665px) {
+  .places__link-container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

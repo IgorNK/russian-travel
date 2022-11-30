@@ -2,5 +2,25 @@
   display: grid;
   row-gap: 48px;
   column-gap: 3.2vw;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 460px 1fr;
+  /* grid-template-columns: repeat(2, 1fr); */
+}
+
+@media screen and (max-width: 1199px) {
+  .places__card {
+    grid-template-columns: 440px 1fr;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .places__card {
+    grid-template-columns: 340px 1fr;
+  }
+}
+
+@media screen and (max-width: 665px) {
+  .places__card {
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+  }
 }

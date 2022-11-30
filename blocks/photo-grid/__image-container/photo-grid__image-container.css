@@ -1,6 +1,25 @@
 .photo-grid__image-container {
-  display: inline-grid;
+  display: grid;
   column-gap: 16px;
   row-gap: 16px;
   grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+}
+
+@media screen and (max-width: 1199px) {
+  .photo-grid__image-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .photo-grid__image-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 665px) {
+  .photo-grid__image-container {
+    grid-template-columns: 1fr;
+  }
 }

@@ -6,4 +6,12 @@
   justify-content: flex-start;
   align-items: center;
   position: relative;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+@media screen and (max-width: 1199px) {
+  .cover {
+    padding: 0;
+  }
 }

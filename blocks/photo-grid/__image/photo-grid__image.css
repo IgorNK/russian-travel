@@ -1,5 +1,10 @@
 .photo-grid__image {
-  width: 284px;
-  height: 213px;
+  /* width: 284px; */
+  /* height: 213px; */
+  max-width: 100%;
+  max-height: auto;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/0.75;
   object-fit: cover;
 }

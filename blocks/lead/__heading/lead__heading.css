@@ -10,3 +10,11 @@
   font-style: normal;
   max-width: 720px;
 }
+
+@media screen and (max-width: 665px) {
+  .lead__heading {
+    font-size: 40px;
+    line-height: 110%;
+    max-width: 288px;
+  }
+}

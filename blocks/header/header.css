@@ -6,3 +6,17 @@
   justify-content: space-between;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 999px) {
+  .header {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 665px) {
+  .header {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
