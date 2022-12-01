@@ -11,3 +11,15 @@
   color: #fff;
   align-self: flex-start;
 }
+
+@media screen and (max-width: 999px) {
+  .lead__image-title {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 665px) {
+  .lead__image-title {
+    margin-left: 16px;
+  }
+}

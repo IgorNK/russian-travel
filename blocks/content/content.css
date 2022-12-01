@@ -19,6 +19,7 @@
 @media screen and (max-width: 999px) {
   .content {
     row-gap: 88px;
+    padding-bottom: 64px;
   }
 }
 

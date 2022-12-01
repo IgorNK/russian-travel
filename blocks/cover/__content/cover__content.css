@@ -10,3 +10,9 @@
   width: auto;
   text-decoration: none;
 }
+
+@media screen and (max-width: 519px) {
+  .cover__content {
+    row-gap: 16px;
+  }
+}
