@@ -21,7 +21,7 @@
 
 **Страница на Github Pages**
 
-[Путешествия по России - страница на Github.io](https://github.io/)
+[Путешествия по России - страница на Github.io](https://igornk.github.io/russian-travel/)
 
 **Автор**
 Назиров Игорь, студент 21-Snow группы Web+
