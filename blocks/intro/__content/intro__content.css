@@ -1,33 +1,30 @@
-.places {
+.intro__content {
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  row-gap: 80px;
+  align-self: flex-start;
+  max-width: 690px;
   padding-left: 148px;
   padding-right: 148px;
-  max-width: 2856px;
 }
 
 @media screen and (max-width: 1199px) {
-  .places {
+  .intro__content {
     padding-left: 48px;
     padding-right: 48px;
   }
 }
 
 @media screen and (max-width: 999px) {
-  .places {
+  .intro__content {
+    max-width: none;
     padding-left: 24px;
     padding-right: 24px;
-    row-gap: 73px;
   }
 }
 
 @media screen and (max-width: 689px) {
-  .places {
-    padding: 0;
-    row-gap: 50px;
+  .intro__content {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

@@ -4,7 +4,7 @@
   margin-bottom: 25px;
   font-family: Inter, Helvetica, Arial, sans-serif;
   font-size: 18px;
-  line-height: 163%;
+  line-height: 1.63;
   font-weight: 400;
   color: #fff;
   font-style: normal;
@@ -20,7 +20,7 @@
   }
 }
 
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 689px) {
   .places__text {
     padding-left: 16px;
     padding-right: 16px;

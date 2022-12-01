@@ -1,15 +1,15 @@
 .header__lang {
   font-family: Inter, Helvetica, Arial, sans-serif;
   font-size: 24px;
-  line-height: 117%;
+  line-height: 1.17;
   display: flex;
   column-gap: 18px;
   align-items: center;
 }
 
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 689px) {
   .header__lang {
     font-size: 18px;
-    line-height: 111%;
+    line-height: 1.11;
   }
 }

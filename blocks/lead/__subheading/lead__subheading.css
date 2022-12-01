@@ -4,18 +4,19 @@
   margin-top: 32px;
   font-family: Inter, Helvetica, Arial, sans-serif;
   font-size: 30px;
-  line-height: 36px;
+  line-height: 1.2;
   font-weight: 400;
   text-align: center;
   color: #fff;
+  text-rendering: optimizeLegibility;
   max-width: 640px;
 }
 
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 689px) {
   .lead__subheading {
     margin-top: 16px;
     font-size: 16px;
-    line-height: 125%;
+    line-height: 1.25;
     max-width: 288px;
   }
 }

@@ -18,7 +18,7 @@
   }
 }
 
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 689px) {
   .places__card {
     grid-template-columns: 1fr;
     row-gap: 32px;

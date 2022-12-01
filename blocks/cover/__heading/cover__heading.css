@@ -3,11 +3,12 @@
   padding: 0;
   font-family: Inter, Helvetica, Arial, sans-serif;
   font-size: 72px;
-  line-height: 106%;
+  line-height: 1.06;
   font-weight: 900;
   font-style: normal;
   text-align: center;
   color: #fff;
+  text-rendering: optimizeLegibility;
   max-width: 560px;
   z-index: 1;
   pointer-events: none;
@@ -16,7 +17,7 @@
 @media screen and (max-width: 519px) {
   .cover__heading {
     font-size: 32px;
-    line-height: 109%;
+    line-height: 1.09;
     max-width: 240px;
   }
 }
