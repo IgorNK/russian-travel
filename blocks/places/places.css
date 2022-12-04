@@ -7,7 +7,8 @@
   row-gap: 80px;
   padding-left: 148px;
   padding-right: 148px;
-  max-width: 2856px;
+  max-width: 1280px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1199px) {

@@ -1,4 +1,4 @@
-.places__link-container {
+.place__link-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 689px) {
-  .places__link-container {
+  .place__link-container {
     padding-left: 16px;
     padding-right: 16px;
   }

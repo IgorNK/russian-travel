@@ -4,12 +4,13 @@
   line-height: 1.17;
   display: flex;
   column-gap: 18px;
-  align-items: center;
+  align-items: baseline;
 }
 
 @media screen and (max-width: 689px) {
   .header__lang {
     font-size: 18px;
     line-height: 1.11;
+    padding-bottom: 5px;
   }
 }
